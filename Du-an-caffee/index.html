@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Home</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+ 
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="right">
+                <a href="">BARISTA</a>
+            </div>
+            <div id="left">
+                <ul id="nav">
+                    <li>
+                        <a href="#">Home</a>
+                        <ul class="subnav">
+                            <li><a href="#">Main Home</a></li>
+                            <li><a href="#">Metro Home</a></li>
+                            <li><a href="#">Dark Home</a></li>
+                            <li><a href="#">Vertical Showcase</a></li>
+                            <li><a href="#">Shop Home</a></li>
+                            <li><a href="#">Boxed Home</a></li>
+                            <li><a href="#">Grid Home</a></li>
+                            <li><a href="#">Parallax Showcase</a></li>
+                            <li><a href="#">Coming Soon</a></li>
+                            <li><a href="#">Landing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Menu</a>
+                        <ul class="subnav">
+                            <li><a href="#">Out Menu</a></li>
+                            <li><a href="#">Singple Menu</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Reservation</a>
+                        <ul class="subnav">
+                            <li><a href="#">Booking Page</a></li>
+                            <li><a href="#">Reservation</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Pages</a>
+                        <ul class="subnav">
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">What We Offer</a></li>
+                            <li><a href="#">Meet Our Team</a></li>
+                            <li><a href="#">Our Process</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">404 Error</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                        <ul class="subnav">
+                            <li><a href="#">Standard Right Sideba</a></li>
+                            <li><a href="#">Standard Left Sidebar</a></li>
+                            <li><a href="#">Split Column</a></li>
+                            <li><a href="#">Masonry Grid</a></li>
+                            <li><a href="#">Masonyry Full Width</a></li>
+                            <li><a href="#">Post Types</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Shop</a>
+                        <ul class="subnav">
+                            <li><a href="#">Shop With Sidebar</a></li>
+                            <li><a href="#">Single Product</a></li>
+                            <li><a href="#">Shop List</a></li>
+                            <li><a href="#">Shop Pages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="click">
+                <i class="ti-shopping-cart-full"></i>
+                <i class="ti-search"></i>
+                <i class="ti-align-justify"></i>
+            </div>
+       </div>
+       <div class="slider">
+        <div class="row">
+            <div class=" col l-12 m-12 c-12 ">
+                <div class="mySlides fade">
+                    <img src="./assets/img/ảnh slider 1.jpg" class="mySlides-img" >
+                    <div class="text">A PLACE</div>
+                    <div class="text1">OF TRANQUILITY</div>
+                    <div class="sub-text">Lorem ipsum dolor sit amet, nec ne oficiis electram.
+                        Dolore nominati vim et. </div>
+                </div>
+
+            </div>
+
+            <div class="col l-12 m-12 c-12 ">
+                <div class="mySlides fade">
+                    <img src="./assets/img/ảnh slider 3.jpg"  class="mySlides-img"  >
+                    <div class="text">COFFEE IS</div>
+                    <div class="text1">OUR LANGUAGE</div>
+                    <div class="sub-text">Lorem ipsum dolor sit amet, nec ne oficiis electram. Dolore nominati vim et.</div>
+                </div>
+            </div> 
+        
+            <div class="col l-12 m-12 c-12 ">
+                <div class="mySlides fade">
+                    <img src="./assets/img/ảnh slider 2.jpg"  class="mySlides-img"  >
+                    <div class="text">WE LOVE</div>
+                    <div class="text1">WHAT WE DO</div>
+                    <div class="sub-text">Lorem ipsum dolor sit amet, nec ne oficiis electram. Dolore nominati vim et.</div>
+                </div>
+            </div>   
+
+        </div>  
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "flex";
+                    setTimeout(showSlides, 5000); // Change image every 2 seconds
+                }
+            </script>        
+        </div> 
+        
+        <div class="may">
+            <div class="content-may">
+                <div class="text-may">What Happens Here</div>
+                <div class="sub-text-may">COFFEE BUILD YOUR BASE.</div>
+                <div class="spac-may">_________________</div>
+            </div>
+
+            <div class="place-list">
+
+                <div class="place-iteam">
+                    <img src="./assets/img/may 1.jpg" alt="Cafe" class="place-img">
+                    <h1 class="place-heading">PLACES TO GET LOST</h1>
+                    <p class="place-desc">Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex,
+                         nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis,
+                         vix aperiri consequat an. Eius lorem tincidunt vix atle.</p>
+                     <a href="#" class="read-more">
+                        READ MORE
+                        <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="place-iteam">
+                    <img src="./assets/img/may 2.jpg"  alt="Cafe" class="place-img">
+                    <h1 class="place-heading">BEST COFFEE FLAVORS</h1>
+                    <p class="place-desc">Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex,
+                         nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis,
+                         vix aperiri consequat an. Eius lorem tincidunt vix atle.</p>
+                    <a href="#" class="read-more">
+                        READ MORE
+                        <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="place-iteam">
+                    <div class="time">
+                    <div class="edgtf-wh-title-holder">
+                        <h3 class="edgtf-wh-title">Opening Hours</h3>
+                    </div>
+                    
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Monday </span>   
+                        <span class="edgtf-wh-hours">
+                            <span class="edgtf-wh-spac">________________</span>
+                        <span class="edgtf-wh-closed">Closed</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Tuesday </span> 
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac">_______________</span>
+                        <span class="edgtf-wh-from">9:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">22:00</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Wednesday </span>
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac">___________</span>
+                        <span class="edgtf-wh-from">9:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">22:00</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Thursday </span>  
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac">_____________</span>
+                        <span class="edgtf-wh-from">9:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">22:00</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Friday</span> 
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac">__________________</span>
+                        <span class="edgtf-wh-from">9:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">1:00</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Saturday</span>  
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac"> ____________</span>
+                        <span class="edgtf-wh-from">12:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">01:00</span>
+                        </span>
+                    </div>
+
+                    <div class="edgtf-wh-item">
+                        <span class="edgtf-wh-day">
+                        Sunday </span>   
+                        <span class="edgtf-wh-hours">
+                        <span class="edgtf-wh-spac">_______________</span>
+                        <span class="edgtf-wh-from">9:00</span>
+                        <span class="edgtf-wh-delimiter">-</span>
+                        <span class="edgtf-wh-to">22:00</span>
+                        </span>
+                    </div>
+
+                        <div class="edgtf-wh-footnote-holder">
+                        <span class="edgtf-wh-footnote">call: 0366902873</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="application">
+            <div class="application-content">
+                <div class="application-iteam">
+                    <div class="application-heading">Application</div>
+                    <div class="application-text">USE OUR APPLICATION.</div>
+                    <div class="application-spac">__________________</div>
+                    <div class="application-sub-text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, 
+                        nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, 
+                        vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. 
+                        Mea facilisis urbanitas moderatius id.</div>
+                    <a href="#" class="application-read-more"> READ MORE</a>
+                </div>
+
+                <div class="application-iteam">
+                    <video width="450" height="310" controls poster="./assets/img/video-img.jpg">
+                        <source src="./assets/video/Barista video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="edgtf-portfolio-item">
+
+                <ul class="caption-style">
+                    <li>
+                        <img src="./assets/img/caption 1.jpg" alt="#">
+                        <div class="caption">
+                            <div class="blur"></div>
+                            <div class="caption-text">
+                                <h1>CAFE TASTE</h1>
+                                <p>Flavours</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>    
+
+                <ul class="caption-style">
+                    <li>
+                        <img src="./assets/img/caption 2.jpg" alt="#">
+                        <div class="caption">
+                            <div class="blur"></div>
+                            <div class="caption-text">
+                                <h1>FAVORITE BARTENDR</h1>
+                                <p>Flavours</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>    
+                
+                <ul class="caption-style">
+                    <li>
+                        <img src="./assets/img/caption 3.jpg" alt="#">
+                        <div class="caption">
+                            <div class="blur"></div>
+                            <div class="caption-text">
+                                <h1>BEST MORNINGS</h1>
+                                <p>Flavours</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>    
+                
+                <ul class="caption-style">
+                    <li>
+                        <img src="./assets/img/caption 4.jpg" alt="#">
+                        <div class="caption">
+                            <div class="blur"></div>
+                            <div class="caption-text">
+                                <h1>UNFORGETTABLE FLAVOR</h1>
+                                <p>Flavours</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>                
+        </div>
+
+        <div class="products">
+            <div class="content-products">
+                <div class="text-products">Choose one of our flavours</div>
+                <div class="sub-text-products">COFFEE BUILD YOUR BASE.</div>
+                <div class="spac-products">_________________</div>
+            </div>
+
+            <div class="products-review">
+                <div class="products-review-content">
+                    <img src="./assets/img/products 1.png" alt="#">
+                    <h1>ESPRESSO</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 2.png" alt="#">
+                    <h1>MACCHIATO</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 3.png" alt="#">
+                    <h1>RISTRETTO</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 4.png" alt="#">
+                    <h1>CAPUCCINO</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+                </div>
+
+                <div class="products-review">
+                <div class="products-review-content">
+                    <img src="./assets/img/products 5.png" alt="#">
+                    <h1>FRAPPE</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 6.png" alt="#">
+                    <h1>IRISH</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 7.png" alt="#">
+                    <h1>MOCHA</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+
+                <div class="products-review-content">
+                    <img src="./assets/img/products 8.png" alt="#">
+                    <h1>GLAGE</h1>
+                    <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei an pericula.</p>
+                </div>
+                </div>  
+            </div>
+
+            <div class="may-1">
+            <div class="place-list-1">
+
+                <div class="place-iteam-1">
+                    <img src="./assets/img/may 1.jpg" alt="Cafe" class="place-img-1">
+                    <h1 class="place-heading-1">MAKE IT SIMPLE</h1>
+                    <div class="place-day">
+                        <span class="place-day-1">Jane Doe</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-3">Competition</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-4">01.03.2022</span>
+                    </div>
+                    <p class="place-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at neque eleifend tristiqu...</p>
+                     <a href="#" class="read-more-1">
+                        READ MORE
+                        <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="place-iteam-1">
+                    <img src="./assets/img/place-uteam-1 2.jpg" alt="Cafe" class="place-img-1">
+                    <h1 class="place-heading-1">CAFE SHOP</h1>
+                    <div class="place-day">
+                        <span class="place-day-1">Jane Doe</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-3">Competition</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-4">01.03.2022</span>
+                    </div>
+                    <p class="place-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at neque eleifend tristiqu...</p>
+                     <a href="#" class="read-more-1">
+                        READ MORE
+                        <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="place-iteam-1">
+                    <img src="./assets/img/place-iteam-1 3.jpg" alt="Cafe" class="place-img-1">
+                    <h1 class="place-heading-1">CAFE BAR</h1>
+                    <div class="place-day">
+                        <span class="place-day-1">Jane Doe</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-3">Competition</span>
+                        <span class="place-day-2">/</span>
+                        <span class="place-day-4">01.03.2022</span>
+                    </div>
+                    <p class="place-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at neque eleifend tristiqu...
+                    </p>
+                     <a href="#" class="read-more-1">
+                        READ MORE
+                        <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+            </div>   
+            </div> 
+
+            <div class="menu">
+                <div class="menu-column">
+                <div class="column">
+                    <div class="latest-posts">
+                        <h5>LATEST POSTS</h5>
+                        <ul>
+                            <li>
+                                <a href="#" class="latest-posts-text">EXPAND YOUR MIND, CHANGE EVERYTHING</a>
+                                <p class="latest-posts-day">01.03.2022</p>
+                            </li>
+                            <div class="latest-posts-spac">____________________________</div>
+                            <li>
+                                <a href="#" class="latest-posts-text">PLACES TO GET LOST</a>
+                                <p class="latest-posts-day">01.03.2022</p>
+                            </li>
+                            <div class="latest-posts-spac">____________________________</div>
+                            <li>
+                                <a href="#" class="latest-posts-text">LEWIS HOWES</a>
+                                <p class="latest-posts-day">01.03.2022</p>
+                            </li>
+                            <div class="latest-posts-spac">____________________________</div>
+                            <li>
+                                <a href="#" class="latest-posts-text">ELEVATE YOUR EXPECTATIONS</a>
+                                <p class="latest-posts-day">01.03.2022</p>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="contac-us">
+                        <p class="contac-us-text-1">CONTACT US</p>
+                        <a href="#" class="contac-us-email">longnhat.it.dev@gmail.com</a>
+                        <p class="contac-us-text-2">0366902873</p>
+                        <p class="contac-us-text-2">25 Phú Lộc 7, Hòa Minh, Liên Chiểu, Đà Nẵng</p>
+                        <p class="contac-us-text-3">THE LAST STANDARD POST</p>
+                    </div>
+
+                    <div class="col-full">
+                        <form action="">
+                            <input type="text" name="" placeholder="Your Gmail" required id="" class="form-control">
+                            <input type="submit" value="SEND" class="form-submit">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="other-locations">
+                        <p class="other-locations-text-1">OTHER LOCATIONS</p>
+                        <p class="other-locations-text-2">BARISTA CAFE SHOP</p>
+                        <div class="other-locations-text-3">
+                            <p>25 Phú Lộc 7</p>
+                            <p>Hòa Minh, Liên Chiểu</p>
+                        </div>
+                        <p class="other-locations-text-4">BARISTA CAFE</p>
+                        <div class="other-locations-text-5">
+                            <p>25 Phú Lộc 7</p>
+                            <p>Hòa Minh, Liên Chiểu</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="end">
+                <i class="ti-facebook"></i>
+                <i class="ti-instagram"></i>
+                <i class="ti-twitter"></i>
+                <i class="ti-youtube"></i>
+            
+            </div>
+    </div>  
+</body>
+</html>
